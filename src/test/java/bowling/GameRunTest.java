@@ -12,7 +12,7 @@ class GameRunTest {
 	private PartieMonoJoueur partie;
 
 	@BeforeEach
-	public void setUp() {
+	void setUp() {
 		partie = new PartieMonoJoueur();
 	}
 
